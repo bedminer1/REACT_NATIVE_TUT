@@ -8,7 +8,7 @@ export default function App() {
   <View className="items-center justify-center flex-1 bg-purple-700">
     <StatusBar style="auto" />
     <Text className="text-5xl font-bold text-white">Hello World</Text>
-    <Image source={logoImg} className="w-20 h-20"/>
+    <Image source={{ uri: "https://picsum.photos/200" }} className="h-80 w-80"/>
   </View>
   )
 }
